@@ -40,7 +40,7 @@ A Python-based tool designed to extract Indicators of Compromise (IOCs) from sup
 
 **Location:** `Python-Tool/`
 
-## ⚙️ Requirements
+## Requirements
 
 Requirements depend on the tool and the operating system.
 
