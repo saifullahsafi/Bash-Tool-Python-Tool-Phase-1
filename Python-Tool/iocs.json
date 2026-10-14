@@ -1,0 +1,29 @@
+{
+  "url": [
+    "http://malware-host.ru/payload.exe",
+    "https://secure-paypa1.com/login.php"
+  ],
+  "email": [
+    "billing@secure-paypa1.com"
+  ],
+  "ip": [
+    "185.220.101.4",
+    "192.168.1.20",
+    "45.33.32.156"
+  ],
+  "sha256": [
+    "275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f"
+  ],
+  "sha1": [],
+  "md5": [
+    "d41d8cd98f00b204e9800998ecf8427e"
+  ],
+  "cve": [
+    "CVE-2021-44228",
+    "CVE-2024-3094"
+  ],
+  "domain": [
+    "malware-host.ru",
+    "secure-paypa1.com"
+  ]
+}

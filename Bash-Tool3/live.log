@@ -1,0 +1,24 @@
+Linux Security Checker v1.0: REAL-TIME MONITOR
+Checking every 5s. Press Ctrl+C to stop.
+
+10:12:33 [INFO ] Baseline captured: 0 listening ports, 7 files hashed, 2 active sessions
+10:12:33 [INFO ] No readable auth log: login-attack detection disabled
+10:13:23 [ALERT] NEW listening port: tcp/9999
+10:14:18 [ALERT] NEW listening port: udp/54285
+10:14:18 [ALERT] NEW listening port: udp/60608
+10:14:35 [ALERT] NEW listening port: udp/35138
+10:14:35 [ALERT] NEW listening port: udp/36098
+10:14:35 [ALERT] NEW listening port: udp/51152
+10:14:35 [ALERT] NEW listening port: udp/57619
+10:14:35 [ALERT] NEW listening port: udp/59415
+10:14:46 [INFO ] Port closed: udp/35138
+10:14:46 [INFO ] Port closed: udp/36098
+10:14:46 [INFO ] Port closed: udp/51152
+10:14:46 [INFO ] Port closed: udp/54285
+10:14:46 [INFO ] Port closed: udp/57619
+10:14:46 [INFO ] Port closed: udp/59415
+10:14:46 [INFO ] Port closed: udp/60608
+
+== Monitoring stopped ==
+  Alerts raised: 8
+  Log saved to: live.log

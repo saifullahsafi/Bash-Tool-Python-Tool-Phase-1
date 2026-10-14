@@ -1,0 +1,8 @@
+Oct 12 10:01:22 srv sshd[991]: Failed password for root from 185.220.101.4 port 52144 ssh2
+Oct 12 10:01:25 srv sshd[991]: Failed password for admin from 185.220.101.4 port 52150 ssh2
+Oct 12 10:02:10 srv sshd[993]: Accepted password for alice from 192.168.1.20 port 40022 ssh2
+Phishing email from billing@secure-paypa1[.]com contained link hxxps://secure-paypa1[.]com/login.php
+Dropper downloaded from http://malware-host.ru/payload.exe (also 45.33.32.156)
+SHA256: 275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f
+MD5: d41d8cd98f00b204e9800998ecf8427e
+Exploit attempt referenced CVE-2024-3094 and cve-2021-44228. Report saved to notes.txt

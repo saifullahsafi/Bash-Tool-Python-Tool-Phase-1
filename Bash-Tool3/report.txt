@@ -1,0 +1,55 @@
+
+╔══════════════════════════════════════════════════════════════╗
+║  ██╗     ███████╗ ██████╗  LINUX SECURITY CHECKER       ║
+║  ██║     ██╔════╝██╔════╝  Host Security Toolkit         ║
+║  ██║     ███████╗██║      Version 1.0                   ║
+╠══════════════════════════════════════════════════════════════╣
+║  Mode: SCAN MODE
+║  Host: saif
+║  User: root
+║  Time: 2026-10-14 11:38:14
+╚══════════════════════════════════════════════════════════════╝
+
+
+== System Information ==
+  [INFO] Host:   saif
+  [INFO] Kernel: 7.1.5+kali-amd64
+  [INFO] OS:     Kali GNU/Linux Rolling
+  [INFO] Date:   2026-10-14 11:38:14
+  [INFO] User:   root (uid=0)
+
+== Critical File Permissions ==
+  [PASS] /etc/passwd permissions are 644 (max recommended 644)
+  [PASS] /etc/shadow permissions are 640 (max recommended 640)
+  [PASS] /etc/group permissions are 644 (max recommended 644)
+  [PASS] /etc/ssh/sshd_config permissions are 644 (max recommended 644)
+
+== User Accounts ==
+  [PASS] Only 'root' has UID 0
+  [PASS] No accounts with empty passwords
+  [INFO] Regular user accounts: 3
+
+== SSH Configuration ==
+  [WARN] PermitRootLogin = default (check your distro); recommend 'no'
+  [WARN] PasswordAuthentication = default (yes); prefer SSH keys
+  [PASS] PermitEmptyPasswords is not enabled
+  [INFO] SSH port: 22 (default)
+
+== Network Exposure ==
+  [INFO] Listening ports: none
+  [PASS] Listening port count is reasonable (0)
+  [WARN] iptables has almost no rules
+
+== Privilege Escalation ==
+  [WARN] NOPASSWD sudo rules present:
+  [INFO] SUID binaries in system dirs: 15
+
+== World-Writable Files ==
+  [PASS] No world-writable files in /etc
+
+== Authentication Logs ==
+  [INFO] No readable auth log (try running as root)
+
+== Summary ==
+  Checks run: 13 | PASS: 9 | WARN: 4 | FAIL: 0
+  Report saved to: report.txt
